@@ -1,0 +1,5 @@
+O arquivo 'SQL LojaOnline.sql' dinponibilizado nesta pasta é 
+o comando de criação do banco deve ser rodado no PostgreSQL.
+
+Para isso crie um banco de dados com o nome 'LojaOnline' e
+execute o script no banco criado.
