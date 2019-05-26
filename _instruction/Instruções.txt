@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------
+- Criação banco de dados:
+-------------------------------------------------------------------------
+  O arquivo 'SQL LojaOnline.sql' disponibilizado nesta pasta é 
+  o comando de criação do banco deve ser rodado no PostgreSQL.
+
+  Para isso crie um banco de dados com o nome 'LojaOnline' e
+  execute o script no banco criado.
+
+-------------------------------------------------------------------------
+- Linguagem PHP + Servidor PHP:
+-------------------------------------------------------------------------
+  A diretório 'PHP' disponibilizado nesta pasta é o interpretador 
+  da linguagem PHP com servidor web embutido. Este servidor pode
+  ser baixado no site oficial, https://www.php.net/downloads.php
+  ou vocês podem usar este, que já está configurado, caso deseje 
+  utilizar esta abra o prompt comando do Windows e faça:
+  
+  1. Abra as propriedades do sistema -> Configurações avançadas
+  do sistema -> aba Avançado -> botão Variáveis de Ambiente -> 
+  edite Variável Path -> adicione o caminha da pasta php -> OK
+  Essa modificação permitirá que o prompt comando do Windows,
+  reconhece os comandos do interpretador do PHP como chamando interno.
+
+  2. Navegue até a pasta php usando o comando cd "Local do Arquivo",
+  onde "Local do Arquivo" é o caminho completo do diretório. 
+
+  3. Já na pasta execute o comando php -S "host":"porta" onde 
+  host é o ip da máquina que roda o serviço, caso seja local use
+  localhost; já porta é a porta de conexão com o servido use 
+  8000.
+
+-------------------------------------------------------------------------
+- IDE Desenvolvimento
+-------------------------------------------------------------------------
+  Vamos deixar em aberto. Como a maioria é paga, sugito o notepad++
+  Atende bem as necessidade e é open source faça download em:
+  https://notepad-plus-plus.org/download/v7.7.html
