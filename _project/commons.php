@@ -9,6 +9,5 @@
 
 	//implentação
 	$Connection = "host=".$host." port=".$port." dbname=".$dbname ." user=".$user." password=".$password;
-	$DBConnection = pg_connect($Connection) or die ("Não foi possível conectar ao servidor PostGreSQL".$endl.$endl);;
-	echo "Conexão efetuada com sucesso!!".$endl.$endl;
+	$DBConnection = pg_connect($Connection) or die ("Não foi possível conectar ao servidor PostGreSQL".$endl.$endl);
 ?>

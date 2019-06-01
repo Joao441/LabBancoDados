@@ -1,17 +1,12 @@
-<?php
-	//Uses 
-	include_once 'Commons.php';
+<!DOCTYPE html>
 
-	//Variaeis
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title> Home Page </title>
+	</head>
+	<body>
+		Bem vindo...
+	</body>
 
-	//funçãos
-
-	//implentação
-	echo "Plataformas".$endl;
-
-	$result = pg_query($DBConnection, "select * from Plataforma");
-
-	while($plataforma = pg_fetch_array($result)){
-		echo $plataforma['codigo']." - ".$plataforma['nome'].$endl;	
-	}
-?>
+</html>
