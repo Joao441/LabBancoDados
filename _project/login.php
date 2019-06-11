@@ -9,8 +9,10 @@
 			#container {
 				width: 100vw;
 				height: 100vh;
-				background-image: url("/image/BKG1.png");
-				background-repeat: no-repeat;
+				position: relative;
+				background: url('../img/bg4.jpg');
+				background-size: cover;
+				color: #fff;
 				background-attachment: scroll;
 				display: flex;
 				flex-direction: row;
