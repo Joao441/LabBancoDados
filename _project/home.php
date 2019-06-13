@@ -52,7 +52,7 @@
 				<?php
 					//Teste
 					$i = 1;
-					while ($i <= 2):
+					while ($i <= 3):
 						echo '<figure class="portfolio-item col-md-4 col-sm-6" >
 							<img class="img-responsive" src="img/bg1.jpg" />
 							<div class="conteudo-left">
@@ -62,7 +62,7 @@
 								<li><strong>24/7</strong> Support</li>
 								<li><strong>25 GB</strong> File Storage</li>
 								</ul>
-								<a href="" class="btn btn-primary">Comprar</a>
+								<button id="btCompra" type="button" >Comprar</button>
 							</div>
 						</figure>';
 						$i++;
